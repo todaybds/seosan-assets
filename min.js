@@ -66,7 +66,8 @@ $(document).ready(function(){
 	})
 
 	$('.location_bt').click(function(){
-        location.href="location.html"
+    window.top.location.href="https://www.trivn-seosan.com/location"
+	})
 		// $('body.main .navi,body.main .right_scroll_wrap,body.main .ham').delay(0).fadeOut(1000);
 		// $(".location_pop_wrap").addClass("active");
 		// $('.location_pop_bg').addClass('active');
