@@ -1252,7 +1252,38 @@ body.main .all_wrap {
     align-items: flex-end;
 }
 
+.main03 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.8s;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.main03>div {
+    width: 90%;
+    max-width: 1500px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main03>div>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5rem 0;
+    transform: translateY(4rem);
+}
 
 .main_tit {
     width: 35%;
@@ -1894,7 +1925,7 @@ body.main .all_wrap {
 .main_cal_bt>div>a>div {
     width: 0.9375rem;
     height: 0.75rem;
-    background: url(../img/down_w.png) right center no-repeat;
+    background: url(https://static.wixstatic.com/media/9b4f4f_70b6d4a0cb9447aaa231a81c7a63671b~mv2.png) right center no-repeat;
     background-size: cover;
     transition: 0.5s;
 }
@@ -1907,7 +1938,7 @@ body.main .all_wrap {
 }
 
 .main_cal_bt>div>a>div {
-    background: url(../img/down.png) right center no-repeat;
+    background: url(https://static.wixstatic.com/media/9b4f4f_7013f03820e34335bba6108e98f3198b~mv2.png) right center no-repeat;
     background-size: cover;
 }
 
@@ -2905,7 +2936,7 @@ body.main .all_wrap {
     position: absolute;
     right: 0;
     top: 0;
-    background: url(https://static.wixstatic.com/media/9b4f4f_6e447bf350154b579702dab61b461070~mv2.jpg) center no-repeat;
+    background: url(https://static.wixstatic.com/media/9b4f4f_f4dc2e367cd240eba1a478de97c8775d~mv2.png) center no-repeat;
     background-size: cover;
     z-index: 1;
     transform: scale(1.2);
@@ -4729,7 +4760,7 @@ body.main .all_wrap {
 }
 
 .brand_list ul li::before {
-    content: '· ';
+    content: 'Â· ';
 }
 
 .brand_img_box {
@@ -6705,7 +6736,7 @@ input#agreeYny:checked+label:after {
 /**/
 
 
-/*서브*/
+/*ì„œë¸Œ*/
 
 .sub_top {
     position: relative;
@@ -7709,7 +7740,7 @@ ul.btns a:hover {
 }
 
 .sub_ori ul li:before {
-    content: '·';
+    content: 'Â·';
     position: absolute;
     left: -6px;
     margin-right: 2px;
@@ -7754,7 +7785,7 @@ ul.btns a:hover {
 .sub_gongo_img_box {
     width: 57.545%;
     height: 100%;
-    background: url(../sub/gongo.jpg) center no-repeat;
+    background: url(https://static.wixstatic.com/media/9b4f4f_c2a22af449fb46abb3e43226fa656b4c~mv2.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -8352,6 +8383,4 @@ ul.btns a:hover {
 
 .sub_yd2_wrap table.tit tr:nth-child(2n) {
     display: none;
-
 }
-
